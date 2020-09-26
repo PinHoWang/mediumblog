@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.toolbar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: block;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.toolbar img {
+  height: 50px;
+  padding-right: 60px;
+  padding-left: 60px;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toolbar ul{
+  padding: 0px;
+  margin: 0px;
+  height: 50px;
+}
+
+.toolbar li {
+  display: inline-block;
+  width: 70px;
+  margin-right: -4px;
+  padding-top: 15px;
+}
+
+.toolbar a {
+  display: block;
+  text-decoration: none;
+}
+
+.articles-lastest {
+  /* background-color: aqua; */
+  float: left;
+  width: 65%;
+  border-right-style: solid;
+}
+
+.articles-lastest h1 {
+  margin-left: 40px;
+}
+
+.articles-popular {
+  /* background-color: blue; */
+  float: right;
+  width: 30%;
+}
+
+.articles-popular h1 {
+  margin-left: 40px;
+}
+
+.article-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+}
+
+.article-author {
+  font-weight: 300;
+  /* background-color: blue; */
+  margin-bottom: 1px;
+}
+
+.article-description {
+  font-weight: 200;
+  /* background-color: red; */
+  margin-top: 5px;
+}
+
+.article-date {
+  font-weight: 200;
+  /* background-color: tomato; */
+  margin-top: 1px;
+}
+
+
+.editor {
+  margin-left: 10%;
+  margin-right: 10%;
 }
